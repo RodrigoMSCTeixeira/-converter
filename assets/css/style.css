@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #000;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+main div {
+  position: absolute;
+  color: #fff;
+  top: 10%;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+main select,
+input,
+button {
+  padding: 10px;
+}
+
+main select {
+  margin-right: 10px;
+}
+
+main button {
+  margin: 0 23px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h3>To</h3>
+        <h3>From</h3>
+      </div>
+      <select id="beforeConvert">
+        <option value="km">km</option>
+        <option value="hm">hm</option>
+        <option value="dam">dam</option>
+        <option value="m">m</option>
+        <option value="dm">dm</option>
+        <option value="cm">cm</option>
+        <option value="mm">mm</option>
+      </select>
+      <input type="number" id="number" />
+      <button id="buttonConvert">Convert</button>
+      <select id="afterConvert">
+        <option value=""></option>
+        <option value="km">km</option>
+        <option value="hm">hm</option>
+        <option value="dam">dam</option>
+        <option value="m">m</option>
+        <option value="dm">dm</option>
+        <option value="cm">cm</option>
+        <option value="mm">mm</option>
+      </select>
+      <input type="number" id="numberConverted" readonly disabled />
+    </main>
+    <script src="./scripts/main.js" type="module"></script>
+  </body>
+</html>
